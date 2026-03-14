@@ -1,0 +1,14 @@
+{
+  "name": "OpenClaw Vibe Judge",
+  "version": "1.0.0",
+  "standard": "ERC-8004",
+  "description": "Agent identity metadata for the Vibe Architect judging service.",
+  "capabilities": [
+    "vision-analysis",
+    "vibe-scoring",
+    "certificate-eligibility"
+  ],
+  "endpoints": {
+    "judge": "/agent/skills/vibe-check/judge_logic.py"
+  }
+}
